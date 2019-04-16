@@ -125,10 +125,10 @@ If you remember earlier, we disabled security for `cloud-native-spring`, we'll d
 ---------------------------------------------------------------------
 @EnableDiscoveryClient
 @SpringBootApplication
-public class CloudNativeSpringApplication {
+public class CloudNativeSpringUiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudNativeSpringApplication.class, args);
+		SpringApplication.run(CloudNativeSpringUiApplication.class, args);
 	}
 
   @Order(101)
